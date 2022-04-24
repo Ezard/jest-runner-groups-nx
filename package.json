@@ -1,0 +1,28 @@
+{
+  "name": "jest-runner-groups-nx",
+  "version": "1.0.0",
+  "description": "Jest runner to enable usage of jest-runner-groups with Nx",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ezard/jest-runner-groups-nx.git"
+  },
+  "keywords": [
+    "jest",
+    "runner",
+    "groups",
+    "jest-runner-groups",
+    "nrwl",
+    "nx"
+  ],
+  "author": "Ben Ezard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ezard/jest-runner-groups-nx/issues"
+  },
+  "homepage": "https://github.com/Ezard/jest-runner-groups-nx#readme",
+  "peerDependencies": {
+    "@nrwl/jest": "^14",
+    "jest-runner-groups": "^2"
+  }
+}
