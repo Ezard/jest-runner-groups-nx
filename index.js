@@ -5,7 +5,8 @@ class NxGroupRunner extends GroupRunner {
     try {
       const config = JSON.parse(process.argv[2]);
       if (config?.overrides?.group) {
-        process.argv.push(`--group=${config.overrides.group}`);
+        const groups = Array.isArray(config.overrides.group) ? config.overrides.group : [config.overrides.group];
+        process.argv.push(...groups.map(group => `--group=${group}`));
       }
     } catch (e) {
       console.error(e);
