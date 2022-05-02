@@ -24,5 +24,9 @@
   "peerDependencies": {
     "@nrwl/jest": "^14",
     "jest-runner-groups": "^2"
+  },
+  "devDependencies": {
+    "@nrwl/jest": "14.0.5",
+    "jest-runner-groups": "2.2.0"
   }
 }
