@@ -22,11 +22,11 @@
   },
   "homepage": "https://github.com/Ezard/jest-runner-groups-nx#readme",
   "peerDependencies": {
-    "@nrwl/jest": "^14",
+    "@nrwl/jest": "^15",
     "jest-runner-groups": "^2"
   },
   "devDependencies": {
-    "@nrwl/jest": "14.0.5",
+    "@nrwl/jest": "15.3.3",
     "jest-runner-groups": "2.2.0"
   }
 }
