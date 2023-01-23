@@ -8,9 +8,7 @@ class NxGroupRunner extends GroupRunner {
         const groups = Array.isArray(config.overrides.group) ? config.overrides.group : [config.overrides.group];
         process.argv.push(...groups.map(group => `--group=${group}`));
       }
-    } catch (e) {
-      console.error(e);
-    }
+    } catch (e) { }
     return super.runTests(tests, watcher, onStart, onResult, onFailure, options);
   }
 }
