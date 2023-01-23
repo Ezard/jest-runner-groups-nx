@@ -1,6 +1,6 @@
 {
   "name": "jest-runner-groups-nx",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Jest runner to enable usage of jest-runner-groups with Nx",
   "main": "index.js",
   "repository": {
